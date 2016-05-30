@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.frederick.myappportfolio.MainActivity"
+    android:backgroundTint="#ff5722"
+    tools:targetApi="lollipop">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/my_nanodegree_apps"
+        android:id="@+id/textView"
+        android:layout_marginTop="51dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"/>
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/popular_movies"
+        android:id="@+id/popularmovies"
+        android:layout_below="@+id/textView"
+        android:layout_alignRight="@+id/stockhawk"
+        android:layout_alignEnd="@+id/stockhawk"
+        android:layout_alignLeft="@+id/stockhawk"
+        android:layout_alignStart="@+id/stockhawk"
+        android:backgroundTint="#2E3D49" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/stock_hawk"
+        android:id="@+id/stockhawk"
+        android:layout_below="@+id/popularmovies"
+        android:layout_alignRight="@+id/builditbigger"
+        android:layout_alignEnd="@+id/builditbigger"
+        android:layout_alignLeft="@+id/builditbigger"
+        android:layout_alignStart="@+id/builditbigger"
+        android:backgroundTint="#2E3D49" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/build_it_bigger"
+        android:id="@+id/builditbigger"
+        android:layout_below="@+id/stockhawk"
+        android:layout_alignRight="@+id/makeyourappmaterial"
+        android:layout_alignEnd="@+id/makeyourappmaterial"
+        android:layout_alignLeft="@+id/makeyourappmaterial"
+        android:layout_alignStart="@+id/makeyourappmaterial"
+        android:backgroundTint="#2E3D49" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/make_your_app_material"
+        android:id="@+id/makeyourappmaterial"
+        android:layout_below="@+id/builditbigger"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="#2E3D49" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/go_ubiquitous"
+        android:id="@+id/goubiquitous"
+        android:layout_below="@+id/makeyourappmaterial"
+        android:layout_alignLeft="@+id/makeyourappmaterial"
+        android:layout_alignStart="@+id/makeyourappmaterial"
+        android:layout_alignRight="@+id/makeyourappmaterial"
+        android:layout_alignEnd="@+id/makeyourappmaterial"
+        android:backgroundTint="#2E3D49" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/capstone"
+        android:id="@+id/capstone"
+        android:layout_below="@+id/goubiquitous"
+        android:layout_alignLeft="@+id/goubiquitous"
+        android:layout_alignStart="@+id/goubiquitous"
+        android:layout_alignRight="@+id/goubiquitous"
+        android:layout_alignEnd="@+id/goubiquitous"
+        android:backgroundTint="#2E3D49" />
+
+</RelativeLayout>
